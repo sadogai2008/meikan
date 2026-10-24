@@ -1,0 +1,8 @@
+# ローカル開発用の環境変数テンプレート
+# このファイルを .dev.vars にコピーして値を入れてください（.dev.vars は git 管理外）
+#
+# OpenAI 互換のエンドポイントを使います。
+# 未設定でもアプリは動きます（AIはルールベースの簡易判定にフォールバック）。
+OPENAI_API_KEY=
+OPENAI_BASE_URL=https://api.openai.com/v1
+AI_MODEL=gpt-4o-mini
